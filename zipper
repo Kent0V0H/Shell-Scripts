@@ -1,0 +1,7 @@
+#!/bin/bash
+#KWVH
+
+clear
+echo -n "Your file/folder name: "
+read resp0
+tar -czvf $resp0.tar.gz $resp0

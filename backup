@@ -1,0 +1,12 @@
+#!/bin/bash
+#KWVH
+#sudo apt-get install ntfs-config
+#gksu ntfs-config
+
+cd ~
+
+t=$(date -I)
+
+tar -czvf backup$t.tar.gz FOLDER1 FOLDER2 ...
+
+mv -f backup$t.tar.gz /media/USER/MEDIA_DRIVE/backup

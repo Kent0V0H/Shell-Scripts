@@ -1,0 +1,8 @@
+#!/bin/bash
+#KWVH
+
+su
+
+apt-get autoremove
+
+rm -rf ~/.local/share/Trash/*
