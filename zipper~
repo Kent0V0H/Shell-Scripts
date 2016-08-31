@@ -1,6 +1,0 @@
-#!/bin/bash
-
-clear
-echo -n "Enter your file name: "
-read resp0
-tar -czvf $resp0.tar.gz $resp0
